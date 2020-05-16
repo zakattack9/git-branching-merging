@@ -91,10 +91,10 @@ Opening a PR is usually done with the following steps:
 
 ## Best Practices
 - Always ensure that the two branches being merged are up-to-date with the latest code from GitHub before merging:
-1. Perform a `git fetch` on the branch getting merged
-2. Use `git checkout` to navigate to the branch that will receive the merge
-3. Perform a `git pull` on this branch to get latest changes
-4. Execute `git merge` and resolve any merge conflicts before pushing back up
+  1. Perform a `git fetch` on the branch getting merged
+  2. Use `git checkout` to navigate to the branch that will receive the merge
+  3. Perform a `git pull` on this branch to get latest changes
+  4. Execute `git merge` and resolve any merge conflicts before pushing back up
 - Normally, a branch is deleted once it has been merged in order to keep the amount of active branches relatively small
 - `master` branch is normally protected and will only allows changes through pull requests in order to merge code; this ensures that `master` always has the latest, production-ready, working code
 - On large merge requests, commits are usually *squashed* so that the merge appears as one single commit rather than a history of all commits that occurred on the branch being merged; this can be done using the `--squash` option on `git merge`
