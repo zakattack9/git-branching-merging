@@ -76,25 +76,25 @@ Branches are usually created with the intention of adding code for a new feature
 
 ## Pull Requests (PRs)
 PRs provide the opportunity to:
-		- review code changes before merging
-		- discuss best practices
-		- suggest code changes
-		- merge code to a protected branch like `master`
+- review code changes before merging
+- discuss best practices
+- suggest code changes
+- merge code to a protected branch like `master`
 
 Opening a PR is usually done with the following steps:
-		1. On the branch to be merged perform `git pull origin [branch-receiving-merge]`
-		2. Resolve any merge conflicts
-		3. Push merged code back up to remote branch
-		4. On GitHub GUI open up a new PR
+1. On the branch to be merged perform `git pull origin [branch-receiving-merge]`
+2. Resolve any merge conflicts
+3. Push merged code back up to remote branch
+4. On GitHub GUI open up a new PR
 
 *By performing a git pull first and resolving all conflicts locally, it prevents any merge conflicts from appearing in the PR when opened, thereby allowing immediate merging upon review*
 
 ## Best Practices
 - Always ensure that the two branches being merged are up-to-date with the latest code from GitHub before merging:
-		1. Perform a `git fetch` on the branch getting merged
-		2. Use `git checkout` to navigate to the branch that will receive the merge
-		3. Perform a `git pull` on this branch to get latest changes
-		4. Execute `git merge` and resolve any merge conflicts before pushing back up
+	1. Perform a `git fetch` on the branch getting merged
+	2. Use `git checkout` to navigate to the branch that will receive the merge
+	3. Perform a `git pull` on this branch to get latest changes
+	4. Execute `git merge` and resolve any merge conflicts before pushing back up
 - Normally, a branch is deleted once it has been merged in order to keep the amount of active branches relatively small
 - `master` branch is normally protected and will only allows changes through pull requests in order to merge code; this ensures that `master` always has the latest, production-ready, working code
 - On large merge requests, commits are usually *squashed* so that the merge appears as one single commit rather than a history of all commits that occurred on the branch being merged; this can be done using the `--squash` option on `git merge`
