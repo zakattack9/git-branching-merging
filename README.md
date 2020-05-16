@@ -165,3 +165,4 @@ $ git push -d origin new-feature-tests
 - [Git Merge: How to Use Git Merge the Correct Way](https://dev.to/neshaz/how-to-use-git-merge-the-correctway-25pd)  
 - [Git Merge](https://www.atlassian.com/git/tutorials/using-branches/git-merge)  
 - [How To Delete a Local and Remote Git Branch](https://linuxize.com/post/how-to-delete-local-and-remote-git-branch/)  
+- [Official Git Documentation](https://git-scm.com/docs)
