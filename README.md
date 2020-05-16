@@ -158,8 +158,8 @@ $ git push -d origin new-feature-tests
 ```
 
 ## Extra Resources
-[GitHub Git Cheat Sheet - GitHub Cheatsheets](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/)  
-[What is the difference between ‘git pull’ and ‘git fetch’?](https://stackoverflow.com/questions/292357/what-is-the-difference-between-git-pull-and-git-fetch)  
-[Git Merge: How to Use Git Merge the Correct Way](https://dev.to/neshaz/how-to-use-git-merge-the-correctway-25pd)  
-[Git Merge](https://www.atlassian.com/git/tutorials/using-branches/git-merge)  
-[How To Delete a Local and Remote Git Branch](https://linuxize.com/post/how-to-delete-local-and-remote-git-branch/)  
+- [GitHub Git Cheat Sheet - GitHub Cheatsheets](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/)  
+- [What is the difference between ‘git pull’ and ‘git fetch’?](https://stackoverflow.com/questions/292357/what-is-the-difference-between-git-pull-and-git-fetch)  
+- [Git Merge: How to Use Git Merge the Correct Way](https://dev.to/neshaz/how-to-use-git-merge-the-correctway-25pd)  
+- [Git Merge](https://www.atlassian.com/git/tutorials/using-branches/git-merge)  
+- [How To Delete a Local and Remote Git Branch](https://linuxize.com/post/how-to-delete-local-and-remote-git-branch/)  
