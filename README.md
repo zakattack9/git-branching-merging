@@ -16,7 +16,7 @@ Oftentimes, remote is set to `origin` which is essentially the original reposito
 #### checkout/branching
 Branching creates a copy of files from another branch with modifications only pertaining to its respective branch. Checking out a branch switches between different branches.
 
-`git checkout [branch-name]` — switches to specified branch from current branch
+`git checkout [branch-name]` — switches to specified branch from current branch  
 `git checkout -b [branch-name]` — creates a new branch with files identical to the current branch this command is run in
 
 #### merging
@@ -31,8 +31,8 @@ Retrieves any changes (ex. new commits, new branches, etc.) made to a remote rep
 
 #### pulling
 At its core, a pull in git is a combination of `git fetch` and `git merge` where changes to the remote repository are fetched first and then merged into the current local branch.
-
-`git pull` — adds in any changes made to the same remote branch on GitHub into current local branch
+  
+`git pull` — adds in any changes made to the same remote branch on GitHub into current local branch  
 `git pull [remote-name] [branch-name]` — adds in changes from another remote branch on GitHub into current local branch (remember, *remote-name* is often `origin`)
 
 #### commit
@@ -58,9 +58,9 @@ In the case where changes were made to `branch-1`, a three-way merge would occur
 Merge conflicts arise when two branches have changed the same part of a file in which case git does not know which version to accept. For example, both `branch-1` and `branch-2` changed line 9 of `index.html`; from git’s perspective, there’s no clear distinction of whether to accept line 9 of `index.html` from `branch-1` or `branch-2` subsequently causing a merge conflict requiring manual resolution.
 
 #### Merge Conflict Syntax:
-`<<<<<<<` — indicates the beginning of conflicting code that needs to be resolved
-`=======` — divides incoming code changes (below line) from current code changes (above line)
-`>>>>>>>` — indicates the end of conflicting code that needs to be resolved
+`<<<<<<<` — indicates the beginning of conflicting code that needs to be resolved  
+`=======` — divides incoming code changes (below line) from current code changes (above line)  
+`>>>>>>>` — indicates the end of conflicting code that needs to be resolved  
 
 After a merge conflict has been manually resolved, changes must be added and committed for the conflict to be fully resolved on the branch. Be sure to remove `<<<<<<<`, `=======`, and `>>>>>>>` from the file to prevent any errors.
 
@@ -69,7 +69,7 @@ After a merge conflict has been manually resolved, changes must be added and com
 ## Deleting Merged Branches
 Branches are usually created with the intention of adding code for a new feature, a bug patch, etc. once it is merged, the branch has practically little use in the whole scope of the project since its objective has been achieved; therefore, it is normally best practice to delete a branch that has already been merged and branch off the merged branch to continue further development under a different branch name with a targeted purpose.
 
-`git branch -d [branch-name]` — deletes a local branch
+`git branch -d [branch-name]` — deletes a local branch  
 `git push -d [remote-name] [branch-name]` — deletes a branch in remote repository (be extra careful)
 
 *Always be cautious when deleting branches, the last thing anyone wants is for the wrong branch to be deleted from a repository*
@@ -158,8 +158,8 @@ $ git push -d origin new-feature-tests
 ```
 
 ## Extra Resources
-[GitHub Git Cheat Sheet - GitHub Cheatsheets](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/)
-[What is the difference between ‘git pull’ and ‘git fetch’?](https://stackoverflow.com/questions/292357/what-is-the-difference-between-git-pull-and-git-fetch)
-[Git Merge: How to Use Git Merge the Correct Way](https://dev.to/neshaz/how-to-use-git-merge-the-correctway-25pd)
-[Git Merge](https://www.atlassian.com/git/tutorials/using-branches/git-merge)
-[How To Delete a Local and Remote Git Branch](https://linuxize.com/post/how-to-delete-local-and-remote-git-branch/)
+[GitHub Git Cheat Sheet - GitHub Cheatsheets](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/)  
+[What is the difference between ‘git pull’ and ‘git fetch’?](https://stackoverflow.com/questions/292357/what-is-the-difference-between-git-pull-and-git-fetch)  
+[Git Merge: How to Use Git Merge the Correct Way](https://dev.to/neshaz/how-to-use-git-merge-the-correctway-25pd)  
+[Git Merge](https://www.atlassian.com/git/tutorials/using-branches/git-merge)  
+[How To Delete a Local and Remote Git Branch](https://linuxize.com/post/how-to-delete-local-and-remote-git-branch/)  
