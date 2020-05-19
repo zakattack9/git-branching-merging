@@ -1,9 +1,7 @@
 # Git Branching & Merging
 
 ## Why Branch and Merge?
-Branching allows developers to quickly create new instances or copies of a current set of files either locally or remotely on a GitHub repository; this helps separate working/production-ready code from code currently under development/testing.
-
-Merging is very important in the software development lifecycle, it helps implement new features or changes to code in a non-obstructive way; it is the foundation of expanding and building upon previously developed code.
+Branching allows developers to quickly create new instances or copies of a current set of files either locally or remotely on a GitHub repository; this helps separate working/production-ready code from code currently under development/testing. Merging is very important in the software development lifecycle, it helps implement new features or changes to code in a non-obstructive way; it is the foundation of expanding and building upon previously developed code.
 
 ## Terminology & Commands
 Listed below are a few key terminologies and commands most commonly used during development:
